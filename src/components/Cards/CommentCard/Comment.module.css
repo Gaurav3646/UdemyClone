@@ -1,0 +1,65 @@
+.card {
+  border-top: 1px solid rgb(114, 114, 114);
+  margin-top: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 30rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro {
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.name {
+  font-size: medium;
+}
+
+.pic {
+  width: 40px;
+  height: 40px;
+}
+
+.pic img {
+  width: 100%;
+}
+
+.rat2 {
+  color: var(--glodish2);
+}
+
+.starIcon {
+  margin: 0 0.2rem;
+  width: 12px;
+  overflow: hidden;
+  height: 12px;
+}
+
+.desc {
+  font-weight: 400;
+  font-size: large;
+}
+
+.btn {
+  margin: 0 0.3rem;
+  font-size: 1rem;
+}
+
+.btn > img {
+  width: 1rem;
+}
+
+.time {
+  font-size: small;
+  font-weight: 500;
+  color: rgb(98, 98, 98);
+  margin: 0 0.3rem;
+}

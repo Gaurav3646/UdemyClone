@@ -1,0 +1,11 @@
+.outerDiv {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 2px;
+}
+
+.img {
+  width: 30px;
+  padding-right: 10px;
+}
